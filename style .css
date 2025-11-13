@@ -1,0 +1,98 @@
+/* ======== WARNA DASAR ======== */
+body {
+  background-color: #f0f0f0; /* abu muda */
+  color: #333333; /* abu gelap */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+/* ======== JUDUL ======== */
+h1 {
+  color: #007bff; /* biru terang */
+}
+
+h2 {
+  color: #28a745; /* hijau */
+}
+
+/* ======== TEKS WARNA ======== */
+.text-merah {
+  color: #dc3545; /* merah */
+}
+
+.text-biru {
+  color: #007bff; /* biru */
+}
+
+.text-hijau {
+  color: #28a745; /* hijau */
+}
+
+.text-kuning {
+  color: #ffc107; /* kuning */
+}
+
+.text-ungu {
+  color: #6f42c1; /* ungu */
+}
+
+/* ======== BACKGROUND WARNA ======== */
+.bg-merah {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-biru {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-hijau {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-kuning {
+  background-color: #ffc107;
+  color: #212529;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bg-ungu {
+  background-color: #6f42c1;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* ======== TOMBOL WARNA ======== */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-merah { background-color: #dc3545; }
+.btn-biru  { background-color: #007bff; }
+.btn-hijau { background-color: #28a745; }
+.btn-kuning{ background-color: #ffc107; color: #212529; }
+.btn-ungu  { background-color: #6f42c1; }
+
+/* Efek hover */
+.btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
